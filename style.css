@@ -1,0 +1,66 @@
+# emaneimg{
+    width: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+    background: orange;
+}
+
+.container{
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    width: 90%;
+}
+
+.groceries{
+    border: 1px solid black;
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 24px 0 rgb(0, 0, 0,.4);
+}
+
+.groceries h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.groceries input{
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+    font-size: 1.5rem;
+    border-color: cornflowerblue;
+}
+
+#allItems{
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+@media (max-width:480px){
+    .groceries h1{
+        font-size: 2rem;
+    }
+
+
+    .groceries input{
+        font-size: 1rem;
+    }
+    
+}
